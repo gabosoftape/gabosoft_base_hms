@@ -35,7 +35,6 @@
             <field name="binding_view_types">form</field>
             <field name="view_mode">tree,form</field>
             <field name="domain">[('is_insurance_company','=',1)]</field>
-            <field name="groups_id" eval="[(4,ref('group_admin_medical,bi_group_doctor'))]"/>
             <field name="context">{'default_is_insurance_company': 1,'search_default_is_insurance_company': 1}
             </field>
         </record>
