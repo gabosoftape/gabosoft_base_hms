@@ -45,7 +45,7 @@
         <menuitem id="menu_insurance" name="Seguros"
             parent="main_menu_configartion" sequence='9' />
         <menuitem id="menu_insurance_company" action="act_res_partner"
-            sequence="0" parent="menu_insurance" groups="basic_hms.group_admin_medical,basic_hms.bi_group_doctor "/>
+            sequence="0" parent="menu_insurance" groups="group_admin_medical,bi_group_doctor "/>
 
 </odoo>
 
